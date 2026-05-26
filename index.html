@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width,initial-scale=1">
+
+<title>
+NOTBOT Downloader
+</title>
+
+<link
+rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">
+NOTBOT
+</div>
+
+<p class="subtitle">
+YouTube MP3 • MP4 Downloader
+</p>
+
+<div class="input-box">
+
+<input
+id="url"
+type="text"
+placeholder="Paste URL YouTube">
+
+<button
+onclick="downloadVideo()">
+
+Convert
+
+</button>
+
+</div>
+
+<div class="options">
+
+<div
+class="card active"
+onclick="changeType('mp3',this)">
+
+🎵
+<span>MP3</span>
+
+</div>
+
+<div
+class="card"
+onclick="changeType('mp4',this)">
+
+🎬
+<span>MP4</span>
+
+</div>
+
+</div>
+
+<div
+class="result"
+id="result">
+
+<h2>
+Siap Diproses
+</h2>
+
+<p id="info"></p>
+
+<a
+href="#"
+class="download-link">
+
+Download
+
+</a>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
