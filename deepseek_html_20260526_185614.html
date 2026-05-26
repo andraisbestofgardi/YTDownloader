@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTBOT YouTube Downloader | ZYN COMPANY</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg-gradient"></div>
+    
+    <div class="container">
+        <div class="glow-orb glow-orb-1"></div>
+        <div class="glow-orb glow-orb-2"></div>
+        
+        <div class="header">
+            <div class="badge">
+                <i class="fas fa-skull"></i>
+                <span>NOTBOT ENGINE v4.2</span>
+            </div>
+            <h1 class="title">
+                <span class="gradient-text">YouTube</span>
+                <span class="white-text">Downloader</span>
+            </h1>
+            <p class="subtitle">MP4 · MP3 · 4K · 8K · 320kbps</p>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+                <div class="input-group">
+                    <div class="input-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <input type="text" id="urlInput" placeholder="Tempelin link YouTube disini..." autocomplete="off">
+                    <button id="fetchBtn" class="btn-primary">
+                        <i class="fas fa-bolt"></i>
+                        <span>Ekstrak</span>
+                    </button>
+                </div>
+
+                <div id="loading" class="loading hidden">
+                    <div class="spinner"></div>
+                    <p>NOTBOT sedang bekerja...</p>
+                </div>
+
+                <div id="result" class="result hidden"></div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2792 - ZYN COMPANY | Made by Prof. Meowh Raja 👑</p>
+            <p class="warning-text">
+                <i class="fas fa-skull-crossbones"></i>
+                NOTBOT tidak bertanggung jawab atas penyalahgunaan
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
